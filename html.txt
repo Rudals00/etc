@@ -1,0 +1,69 @@
+html
+
+tag 
+<@>텍스트</@>
+
+1. <h@> </h@>  제목 @의 숫자가 커질수록 글씨가 작아짐
+2.<br> 줄바꿈
+3. <u> </u> 밑줄
+4. <p> </p> 단락   </p style="margin-top:@px;">   @만큼 간격 벌리기
+
+attribute 속성
+<img src="coding.jpg" "width=100%">  위치는 상관없다/ 더많은 의미 부여
+
+
+parent
+<ol> </ol> 넘버링 목차들의 묶음  ordered list
+<ul> </ul>  넘버링 안된 목차 들의 묶음 unordered list
+<li> </li>   목차 list
+
+ ex) <ul>
+	<li> @@ </li>
+	<li> @@ </li>
+     </ul>
+
+<!doctype html>  이문서는 html로 되어있다
+<html> 
+	<head>@@</head>  선언 ex <title> @@</title> 웹페이지 제목
+				<meta charset="utf-8"> utf-8로 읽어달라
+
+	<body>@@</body>
+</html>
+
+
+링크걸기 <a href="사이트" target="_blank" title="@@"> @@ </a>   target="_blank"는 새탭에서 열기
+							title="@@" 는 마우스 올려놨을때 정보
+
+<div style="@@"> @@ </div> 스타일 적용
+ 
+ex)
+
+ width
+
+가로 크기 
+
+height
+
+세로 크기 
+
+border 
+
+테두리 굵기 
+
+background-color 
+
+배경 색상 
+
+ float
+
+정렬 
+
+ margin
+
+여백 
+
+
+<script> alert(@@); </script>  팝업창
+
+<input type="@@" name="@@" value="@@">
+   type ex) text  password     value는 초기값
