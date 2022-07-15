@@ -1,0 +1,4 @@
+드래그해서 shift tap 하면 뒤로 탭됨
+ctrl+/  줄주석 선택/해제
+파일로 이동 ctrl+p
+명령할수 있음 ctrl shitf p

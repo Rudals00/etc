@@ -1,0 +1,50 @@
+java script
+
+<script>  자바 스크립트 코드 </script> 
+
+<input onclick=@@ onchange=@@>  클릭시 이벤트  바겼을시 이벤트
+              event >>>>>   on@@@@   10개에서 20개정도 있음
+
+document.querySelector('@')    @>> .class or #id or tag 
+
+css
+style="@@@" 
+<style> @@@ </style> 안에온다 
+
+<div> </div> 줄바꿈되는 아무뜻없는 태그
+<span> </span> 줄바꿈되지 않는 아무뜻 없는 태그
+
+css의 클래스 선언
+.@{  @@@ }
+id 선은
+#@{ @@@ }
+
+
+함수선언 function @(){@@@}
+
+
+객체에 속해있는 함수는 메소드라고 부른다
+객체에 속해있는 변수는 프로퍼티 라고 부른다
+
+객체는 프로퍼티 끼리 ,를 찍어서 선언  선언할떄는 이런식@@:@@
+객체 선언 ex)  var coworkers={
+"programmer":"egoing"
+};
+
+추가
+coworkers.bookkeeper = "duru";
+coworkers["data scientist"]="taeho";
+coworkers.showAll=function(){};
+
+객체의 데이터 순회
+for(var key in coworkers){
+	document.write(coworkers[key]+'<br>');}
+
+
+코드들을 복사해서 파일을 만들고 참조
+<script src="colors.js"></script> 
+
+
+라이브러리
+
+jQuery 
