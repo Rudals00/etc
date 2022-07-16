@@ -13,9 +13,11 @@ class MyApp extends StatelessWidget {
   }
 }
 class Bicycle{
-  var cadence=0;
-  var speed=0;
-  var geer=0;
+  int cadence=0;
+  int speed=0;
+  int geer=0;
+
+
 
   Bicycle(var candence, var speed, var geer)
       : this.cadence = cadence;
