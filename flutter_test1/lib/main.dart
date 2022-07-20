@@ -1,27 +1,25 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-  var bike = new Bicycle(2, 0, 1);
-  print(bike);
-}
+void main() => runApp(new HelloWorld());
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
+class HelloWorld extends StatelessWidget{
+  Widget build(BuildContext context){
+    return new MaterialApp(
+      title: 'First Flutter App',
+      home: new Scaffold(
+        appBar: new AppBar(
+          title: const Text(('Hello World Demo'),
+          ),
+
+        ),
+      )
+    );
   }
 }
-class Bicycle{
-  int cadence=0;
-  int speed=0;
-  int geer=0;
 
-
-
-  Bicycle(var candence, var speed, var geer)
-      : this.cadence = cadence;
-        this.speed = speed;
-        this.gear = geer;
+void runApp(Widget app){
+  WidgetsFlutterBinding.ensureInitialized()
+      ..scheduleAttachRootWidget(app)
+      ..scheduleWarmUpFrame();
 }
 
