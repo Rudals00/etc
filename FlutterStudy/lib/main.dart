@@ -9,33 +9,30 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Charactor card',
-      theme: ThemeData(
-        primarySwatch: Colors.blue
-      ),
-      home: MyHomePage(),
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: MyCard(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class MyCard extends StatelessWidget {
+  const MyCard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('First app'),
-      ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            Text('Hello'),
-            Text('Hello'),
-            Text('Hello')
-          ],
+        appBar: AppBar(
+          title: Text('BBANTO'),
+          centerTitle: true,
+          backgroundColor: Colors.redAccent,
+          elevation: 0.0,
         ),
-      ),
-
-    );
+        body:  Center(
+          child: Column(
+             mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[Text('Hello'), Text('Hello'), Text('Hello')],
+            ),
+        ),
+        );
   }
 }
