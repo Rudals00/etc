@@ -31,7 +31,7 @@ class MyPage extends StatelessWidget {
           onPressed: (){
             flutterToast();
           },
-          child: Text('Toast'),
+          child: Text('Toa'),
           color: Colors.blue,
         ),
       ),
