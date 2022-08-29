@@ -58,7 +58,7 @@ class Grade extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               letterSpacing: 2.0,
-              fontSize: 28.0,
+              fontSize: 27.0,
               fontWeight: FontWeight.bold
             ),),
             SizedBox(
